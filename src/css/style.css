@@ -1,0 +1,56 @@
+body {
+  background: #eee;
+}
+
+.app-container {
+  box-sizing: border-box;
+  width: 480px;
+}
+
+.cards {
+  display: flex;
+  margin-bottom: 10px;
+  
+}
+
+.list-unstyled {
+  list-style: none;
+  padding: 0;
+}
+
+.card {
+  box-sizing: border-box;
+  position: relative;
+  margin-right: 5px;
+  border-radius: 3px;
+  max-width: 40px;
+  max-height: 30px;
+  background-color: black;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+.card-selected {
+  opacity: 1;
+}
+
+.cards li img {
+  width: 40px;
+  height: 30px;
+}
+
+.form-input {
+  padding: 7px 5px;
+}
+
+.btn {
+  padding: 7px 5px;
+  background-color: rgb(127, 212, 41);
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(132, 233, 31);
+}
